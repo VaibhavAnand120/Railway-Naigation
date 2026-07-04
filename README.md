@@ -1,8 +1,5 @@
 # India Rail Navigation System
 
-[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/VaibhavAnand120/india-rail-navigaiton)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A graph-based real-time railway navigation system for India built with **C++**, **Node.js**, and **Gradio** — deployed on Hugging Face Spaces via Docker.
 
 🔗 **Live Demo:** [https://vaibhavanand120-india-rail-navigaiton.hf.space](https://vaibhavanand120-india-rail-navigaiton.hf.space)
