@@ -89,7 +89,3 @@ Delhi · Mumbai · Chennai · Kolkata · Bangalore · Hyderabad · Ahmedabad · 
 ---
 
 ---
-
-## Author
-
-**Vaibhav Anand** — [GitHub](https://github.com/VaibhavAnand120)
