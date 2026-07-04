@@ -2,7 +2,7 @@
 
 A graph-based real-time railway navigation system for India built with **C++**, **Node.js**, and **Gradio** — deployed on Hugging Face Spaces via Docker.
 
-🔗 **Live Demo:** [https://vaibhavanand120-india-rail-navigaiton.hf.space](https://vaibhavanand120-india-rail-navigaiton.hf.space)
+🔗 **Live Demo:** [https://VaibhavAnand120-india-rail-navigaiton.hf.space](https://vaibhavanand120-india-rail-navigaiton.hf.space)
 
 ---
 
@@ -87,40 +87,6 @@ stations.csv + edges.csv
 Delhi · Mumbai · Chennai · Kolkata · Bangalore · Hyderabad · Ahmedabad · Pune · Jaipur · Lucknow · Bhopal · Nagpur · Patna · Guwahati · Bhubaneswar · Amritsar · Chandigarh · Visakhapatnam · Varanasi · Jammu · Udaipur · Indore · Kanpur · Prayagraj · Jodhpur
 
 ---
-
-## Local Setup
-
-### Prerequisites
-- g++ (GCC)
-- Node.js v18+
-- Python 3.9+
-
-### Run locally
-
-```bash
-# Clone
-git clone https://github.com/VaibhavAnand120/Railway-Navigation.git
-cd Railway-Navigation
-
-# Compile C++
-cd cpp
-g++ -std=c++14 -O2 -o railnav main.cpp graph.cpp
-cd ..
-
-# Install Node deps
-npm install
-
-# Install Python deps
-pip install gradio requests fastapi uvicorn
-
-# Terminal 1 - Start API
-node server.js
-
-# Terminal 2 - Start UI
-python app.py
-```
-
-Open `http://localhost:7860`
 
 ---
 
